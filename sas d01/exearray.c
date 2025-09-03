@@ -9,7 +9,6 @@ int main()
         arr[j] = arr[i];
         arr[i] = k;
     }
-
     for (int i = 0; i < 10; i++)
     {
         printf("%d ", arr[i]);
